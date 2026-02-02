@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه دانش‌آموزی: مهران نور نعمت شاهی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .main-gradient {
+            background: linear-gradient(135deg, #3b82f6 0%, #10b981 100%, #06b6d4 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header / Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-lg md:text-xl font-bold text-blue-700">مدیریت هوشمند منابع</h1>
+            <ul class="hidden md:flex gap-6 text-sm font-medium">
+                <li><a href="#home" class="hover:text-blue-500 transition">خانه</a></li>
+                <li><a href="#electricity" class="hover:text-yellow-600 transition">برق</a></li>
+                <li><a href="#gas" class="hover:text-red-500 transition">گاز</a></li>
+                <li><a href="#water" class="hover:text-blue-500 transition">آب</a></li>
+            </ul>
+            <div class="text-xs font-bold bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
+                ارائه دهنده: مهران نور نعمت شاهی
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="main-gradient text-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">مصرف بهینه، احترام به زندگی</h2>
+            <p class="text-lg opacity-90 mb-8 leading-relaxed">
+                منابع انرژی و آب ثروت‌های ملی ما هستند. با تغییرات کوچک در عادت‌های روزانه، آینده‌ای روشن‌تر برای ایران بسازیم.
+            </p>
+            <div class="flex flex-wrap justify-center gap-3">
+                <span class="bg-white/20 backdrop-blur-md px-4 py-2 rounded-lg text-sm border border-white/30">💡 صرفه‌جویی برق</span>
+                <span class="bg-white/20 backdrop-blur-md px-4 py-2 rounded-lg text-sm border border-white/30">🔥 مدیریت گاز</span>
+                <span class="bg-white/20 backdrop-blur-md px-4 py-2 rounded-lg text-sm border border-white/30">💧 حفاظت از آب</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12 space-y-20">
+
+        <!-- Electricity Section -->
+        <section id="electricity" class="flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="p-3 bg-yellow-100 rounded-lg text-yellow-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800">بهینه‌سازی مصرف برق</h3>
+                </div>
+                <ul class="space-y-4 text-gray-600">
+                    <li class="flex gap-2">🔹 استفاده از لامپ‌های فوق کم‌مصرف (LED) به جای لامپ‌های قدیمی.</li>
+                    <li class="flex gap-2">🔹 خاموش کردن وسایل برقی (مثل مانیتور و تلویزیون) از دکمه اصلی و نه فقط با ریموت.</li>
+                    <li class="flex gap-2">🔹 استفاده از دور کند کولر آبی در ساعات میانی روز.</li>
+                    <li class="flex gap-2">🔹 تمیز نگه داشتن پشت یخچال برای تبادل حرارتی بهتر.</li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                <div class="bg-yellow-50 p-6 rounded-2xl text-center shadow-sm card-hover border border-yellow-100">
+                    <span class="text-4xl block mb-2">💡</span>
+                    <span class="text-sm font-bold text-yellow-700">نور طبیعی</span>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-sm card-hover border border-gray-200">
+                    <span class="text-4xl block mb-2">🔌</span>
+                    <span class="text-sm font-bold text-gray-700">قطع اتصالات</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gas Section -->
+        <section id="gas" class="flex flex-col md:flex-row-reverse items-center gap-10">
+            <div class="md:w-1/2">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="p-3 bg-red-100 rounded-lg text-red-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.657 8.657c1.567 2.88 0 5.657 0 5.657z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800">بهینه‌سازی مصرف گاز</h3>
+                </div>
+                <ul class="space-y-4 text-gray-600">
+                    <li class="flex gap-2">🔸 پوشیدن لباس‌های پشمی و گرم در داخل خانه در فصل زمستان.</li>
+                    <li class="flex gap-2">🔸 استفاده از پرده‌های ضخیم برای جلوگیری از ورود سرما به اتاق.</li>
+                    <li class="flex gap-2">🔸 سرویس سالانه پکیج و رادیاتورها برای بازدهی بیشتر.</li>
+                    <li class="flex gap-2">🔸 بستن درب اتاق‌هایی که در طول روز از آن‌ها استفاده نمی‌شود.</li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 bg-red-50 p-8 rounded-3xl border border-red-100 relative overflow-hidden">
+                <div class="relative z-10">
+                    <p class="text-red-800 font-bold mb-2 text-lg">دمای رفاه چیست؟</p>
+                    <p class="text-red-600">دمای مناسب برای فضای خانه در زمستان بین ۱۸ تا ۲۱ درجه سانتی‌گراد است.</p>
+                </div>
+                <div class="absolute -bottom-4 -left-4 text-9xl opacity-10">🔥</div>
+            </div>
+        </section>
+
+        <!-- Water Section -->
+        <section id="water" class="flex flex-col md:flex-row items-center gap-10">
+            <div class="md:w-1/2">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="p-3 bg-blue-100 rounded-lg text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4a2 2 0 012-2m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800">بهینه‌سازی مصرف آب</h3>
+                </div>
+                <ul class="space-y-4 text-gray-600">
+                    <li class="flex gap-2">🔹 کاهش زمان دوش گرفتن به کمتر از ۵ دقیقه.</li>
+                    <li class="flex gap-2">🔹 استفاده از لیوان آب هنگام مسواک زدن (صرفه‌جویی در ۱۰ لیتر آب).</li>
+                    <li class="flex gap-2">🔹 آبیاری باغچه و گلدان‌ها در ساعات خنک (اوایل صبح یا شب).</li>
+                    <li class="flex gap-2">🔹 تعمیر سریع شیرآلاتی که چکه می‌کنند.</li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 bg-blue-600 text-white p-8 rounded-3xl shadow-xl card-hover">
+                <h4 class="text-xl font-bold mb-4">یک قطره هم مهم است!</h4>
+                <p class="opacity-90 mb-6 text-sm">ایران در منطقه خشک قرار دارد. هر لیتر آبی که امروز ذخیره کنیم، تضمین زندگی برای نسل‌های آینده است.</p>
+                <div class="flex justify-between items-end">
+                    <span class="text-4xl">💧</span>
+                    <button onclick="showTip()" class="bg-white text-blue-600 text-xs px-4 py-2 rounded-full font-bold">نکته تصادفی</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4 mt-20">
+        <div class="container mx-auto text-center">
+            <div class="mb-6">
+                <h4 class="text-xl font-bold text-blue-400">پروژه علمی دانش‌آموزی</h4>
+                <p class="text-gray-400 mt-2">موضوع: راهکارهای عملی صرفه‌جویی در انرژی و منابع</p>
+            </div>
+            <div class="h-px bg-gray-800 w-full mb-6"></div>
+            <p class="text-lg font-bold text-white tracking-wide">
+                ساخته شده توسط: مهران نور نعمت شاهی
+            </p>
+            <p class="text-xs text-gray-500 mt-4 italic">زمستان ۱۴۰۴ - تمامی حقوق معنوی متعلق به دانش‌آموز می‌باشد.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showTip() {
+            const tips = [
+                "آیا می‌دانستید یک شیر در حال چکه روزانه تا ۸۰ لیتر آب هدر می‌دهد؟",
+                "هر یک درجه کاهش دمای بخاری، ۵ درصد در مصرف گاز صرفه‌جویی می‌کند.",
+                "نصب سردوش‌های کاهنده مصرف، تا ۵۰ درصد مصرف آب حمام را کم می‌کند.",
+                "خاموش کردن یک لامپ ۱۰۰ وات اضافی، از ورود ۸۰ کیلوگرم دی‌اکسید کربن به جو جلوگیری می‌کند."
+            ];
+            const randomTip = tips[Math.floor(Math.random() * tips.length)];
+            
+            // Custom Modal replacement for Alert
+            const modal = document.createElement('div');
+            modal.className = "fixed inset-0 bg-black/50 flex items-center justify-center z-[100] p-4";
+            modal.innerHTML = `
+                <div class="bg-white p-6 rounded-2xl max-w-sm w-full text-center shadow-2xl">
+                    <h5 class="text-blue-600 font-bold mb-3">آیا می‌دانستید؟</h5>
+                    <p class="text-gray-700 mb-6 text-sm leading-relaxed">${randomTip}</p>
+                    <button onclick="this.parentElement.parentElement.remove()" class="w-full bg-blue-600 text-white py-2 rounded-xl font-bold">متوجه شدم</button>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+    </script>
+</body>
+</html>
+
